@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	justify-content: center;
+}
+
+/*header {
+	background-color: #0074D9;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+}*/
+
+/*nav {
+	margin-left: auto;
+}*/
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+.job-form{
+	background-color: #fff;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+}
+
+.job-form h2 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+form input[type="text"],
+form select {
+       max-width: 70%;
+	padding: 10px;
+	font-size: 16px;
+	border: solid.
+	border-color:grey;
+	border:opacity 2px;
+	border-radius:10px;/*to make it rounded*/
+  padding:10px;/*make space inside a border*/
+        height: 90px;
+}

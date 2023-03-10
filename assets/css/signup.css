@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+}
+.header {
+  background-color: rgba(53, 114, 160, 0.8);
+  padding: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: black;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+  .container {
+    background-color: rgba(53, 114, 160, 0.8);
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px 35px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+  .header {
+    padding: 20px;
+    background-color: transparent;
+}
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+  color: black;
+}
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  button[type="submit"] {
+    background-color: rgba(53, 114, 160, 0.8);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c5d7c;
+}
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  

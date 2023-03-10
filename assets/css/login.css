@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../img/hero-bg.jpg");
+    background-size: cover;
+    
+  }
+.header {
+    padding: 20px;
+}
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    color: black;
+}
+h1 a {
+    color:black;
+    text-decoration: none;
+  }
+h1 a:hover {
+    color: black;
+    text-decoration: none;
+  }
+p a {
+    color: #fff;
+  }
+.container {
+    background-color: rgba(53, 114, 160, 0.8);
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px 35px 20px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: rgba(53, 114, 160, 0.8);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c5d7c;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a {
+    color: rgba(53, 114, 160, 0.8);
+}
